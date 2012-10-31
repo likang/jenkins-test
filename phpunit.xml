@@ -1,0 +1,19 @@
+<!--
+    https://gist.github.com/966439
+-->
+
+<phpunit colors="true" verbose="true" >
+
+    <testsuites>
+        <testsuite name="My Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <!--
+    <logging>
+        <log type="coverage-html" target="test-reports" charset="UTF-8" yui="true" />
+    </logging>
+    -->
+
+</phpunit>
