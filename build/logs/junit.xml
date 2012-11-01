@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ProjectName" tests="2" assertions="2" failures="0" errors="0" time="0.011980">
+    <testsuite name="FooTest" file="/Users/likang/Projects/jenkins-test/tests/FooTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.011980">
+      <testcase name="testFunction" class="FooTest" file="/Users/likang/Projects/jenkins-test/tests/FooTest.php" line="5" assertions="1" time="0.010185"/>
+      <testcase name="testClass" class="FooTest" file="/Users/likang/Projects/jenkins-test/tests/FooTest.php" line="10" assertions="1" time="0.001795"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
