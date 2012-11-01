@@ -1,4 +1,5 @@
 <?php
-function bar(){
-    return "bar"
+function bar()
+{
+    return "bar";
 }
