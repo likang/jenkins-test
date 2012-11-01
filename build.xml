@@ -46,6 +46,11 @@
     <modified />
    </fileset>
 
+   <fileset dir="${basedir}/lib">
+    <include name="**/*.php" />
+    <modified />
+   </fileset>
+
    <fileset dir="${basedir}/tests">
     <include name="**/*.php" />
     <modified />
@@ -82,6 +87,7 @@
  <target name="phpmd-ci" description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
   <exec executable="phpmd">
    <arg path="${basedir}/src" />
+   <arg path="${basedir}/lib" />
    <arg value="xml" />
    <arg value="${basedir}/build/phpmd.xml" />
    <arg value="--reportfile" />
@@ -103,6 +109,7 @@
    <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
    <arg value="--standard=${basedir}/build/phpcs.xml" />
    <arg path="${basedir}/src" />
+   <arg path="${basedir}/lib" />
   </exec>
  </target>
 
